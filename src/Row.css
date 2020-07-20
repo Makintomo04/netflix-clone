@@ -1,0 +1,47 @@
+.row {
+  position: relative;
+  margin-left: 30px;
+  color: white;
+}
+.row__title {
+  padding-left: 30px;
+  font-size: 20px;
+}
+.row__posters {
+  height: auto;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 35px 30px;
+  position: relative;
+}
+
+.poster__wrapper {
+  position: relative;
+}
+.row__poster {
+  object-fit: contain;
+  max-height: 150px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 0.25vw;
+}
+.row__poster:nth-child(1) {
+  margin-left: 0;
+}
+.row__posterLarge {
+  max-height: 200px;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    margin-left: 20px;
+  }
+  .row__posters {
+    padding: 35px 10px;
+  }
+  .row__title {
+    padding-left: 10px;
+  }
+}
