@@ -47,7 +47,7 @@ const Banner = () => {
             <i class="fas fa-play"></i>Play
           </button>
           <button className="banner__button banner__button__info">
-            <i class="fas fa-info-circle"></i> My List
+            <i class="fas fa-info-circle"></i> More info
           </button>
         </div>
       </div>
