@@ -1,4 +1,4 @@
-.rows {
+.rows:last-of-type {
   padding-bottom: 60px;
 }
 .row {
