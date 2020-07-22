@@ -1,3 +1,6 @@
+.rows {
+  padding-bottom: 60px;
+}
 .row {
   position: relative;
   margin-left: 30px;
