@@ -37,6 +37,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
                   />
                 )}
                 <div className="poster__desc">
+                  <i class="fas fa-play-circle"></i>
                   <h2>{movie?.title || movie?.name || movie?.original_name}</h2>
                   <p>Action - Drama</p>
                 </div>

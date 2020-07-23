@@ -18,7 +18,7 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding: 35px 30px;
+  padding: 25px 30px 35px;
   position: relative;
 }
 .row__posters::-webkit-scrollbar {
@@ -44,7 +44,7 @@
   margin: 0 50px;
 }
 .row__posterLarge {
-  max-height: 200px;
+  max-height: 250px;
 }
 .row__posterLarge:hover {
   transform: scale(1.2);
@@ -52,6 +52,9 @@
 }
 .poster__desc h2 {
   font-size: 14px;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
 }
 .poster__desc p {
   font-size: 12px;
@@ -63,6 +66,7 @@
   bottom: 0;
   left: 0;
   padding: 20px;
+  max-width: auto;
 }
 .row__poster:hover ~ .poster__desc {
   display: flex;
@@ -79,5 +83,14 @@
   }
   .row__title {
     padding-left: 10px;
+  }
+  .row__shift {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner__title {
+    font-size: 3rem;
   }
 }
