@@ -58,6 +58,8 @@
 }
 .poster__desc p {
   font-size: 12px;
+  color: white;
+  padding: 2px;
 }
 .poster__desc {
   display: none;
@@ -68,6 +70,19 @@
   padding: 20px;
   max-width: auto;
 }
+.genres {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+}
+.trailer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
 .row__poster:hover ~ .poster__desc {
   display: flex;
   flex-direction: column;

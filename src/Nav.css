@@ -42,6 +42,7 @@ nav {
 ul {
   display: flex;
   align-items: center;
+  padding-left: 45px;
 }
 li {
   list-style: none;
@@ -63,13 +64,13 @@ a:hover {
   padding-left: 60px;
 }
 .left li {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .extra {
   padding-right: 60px;
 }
 .extra li {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .avatar {
   height: 32px;

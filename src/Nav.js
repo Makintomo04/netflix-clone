@@ -15,8 +15,8 @@ const Nav = () => {
       <div className="left">
         <div className="logo">
           <img
-            style={{ height: "60px" }}
-            src="https://img.icons8.com/color/240/000000/netflix.png"
+            style={{ height: "25px" }}
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
             alt="Netflix Logo"
           />
         </div>
