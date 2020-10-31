@@ -52,7 +52,7 @@ const Nav = () => {
         <li>
           <a href="#">CHILDREN</a>
         </li>
-        <li>
+        <li className="gift">
           <a href="#">
             <i className="fas fa-gift"></i>
           </a>

@@ -20,6 +20,17 @@ nav {
   height: 68px;
   position: fixed;
   z-index: -1;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 0) 0%,
@@ -35,7 +46,6 @@ nav {
   margin: -7px 0 0 8px;
 }
 .logo {
-  color: red;
   text-transform: uppercase;
   object-fit: contain;
 }
@@ -123,6 +133,12 @@ nav.show--banner {
     height: 24px;
   }
   .profile-dropdown {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .gift {
     display: none;
   }
 }
