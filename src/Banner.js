@@ -27,7 +27,7 @@ const Banner = () => {
     <header
       className="banner"
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(0,255,209,0) 75%, #141414 100%), url(${base_url}${movie?.backdrop_path})`,
+        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 75%, #141414 100%), url(${base_url}${movie?.backdrop_path})`,
 
         backgroundSize: "cover",
         backgroundPosition: "center top",
