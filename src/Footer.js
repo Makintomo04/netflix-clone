@@ -42,9 +42,6 @@ const Footer = () => {
                 <a>Contact Us</a>
               </li>
             </ul>
-            <a className="footer-btn" href="">
-              Service Code
-            </a>
           </div>
           <div className="two">
             <ul>
@@ -88,6 +85,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="bottom-level">
+          <a className="footer-btn" href="">
+            Service Code
+          </a>
           <p>© 1997-2020 Netflix, Inc.</p>
         </div>
       </div>

@@ -15,14 +15,51 @@ function App() {
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
+        fetchGenres={requests.fetchGenres}
+        fetchMovieGenres={requests.fetchMovieGenres}
       />
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
-      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
-      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
-      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      <Row
+        title="Trending Now"
+        fetchUrl={requests.fetchTrending}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Top Rated"
+        fetchUrl={requests.fetchTopRated}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Action Movies"
+        fetchUrl={requests.fetchActionMovies}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Comedy Movies"
+        fetchUrl={requests.fetchComedyMovies}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Horror Movies"
+        fetchUrl={requests.fetchHorrorMovies}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Romance Movies"
+        fetchUrl={requests.fetchRomanceMovies}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
+      <Row
+        title="Documentaries"
+        fetchUrl={requests.fetchDocumentaries}
+        fetchGenres={requests.fetchGenres}
+        fetchMovies={requests.fetchMovieGenres}
+      />
       <Footer />
     </div>
   );

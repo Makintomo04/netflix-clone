@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  height: 300px;
+  height: auto;
   text-align: left;
   max-width: 1400px;
   margin: 20px auto 0;
@@ -18,14 +18,18 @@ footer i {
 }
 .top-level {
   display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 50px; */
 }
 .top-level > div {
   flex: 1;
 }
 .bottom-level {
   display: flex;
+  flex-direction: column;
   margin-top: 30px;
   padding-left: 60px;
+  padding-bottom: 50px;
 }
 footer li {
   margin-bottom: 16px;
@@ -55,10 +59,12 @@ footer a:hover {
   text-decoration: underline;
 }
 .footer-btn {
-  margin-left: 60px;
+  /* margin-left: 60px; */
   padding: 6.5px;
-  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-bottom: 20px;
   border: 1px solid grey;
+  align-self: flex-start;
 }
 .footer-btn:hover {
   transition: color 0.1s ease;
